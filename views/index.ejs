@@ -1,22 +1,23 @@
 <%- include('./partials/head.ejs') %>
 
-<main>
-  <h1><%= squad.name %></h1>
+<article>
+    <a href="/squad-A">squad a</a>
+</article>
 
-  <a href="/?squad=<%= squad.slug %>"><%= squad.name %></a>
-  <section>
-    <!-- Hier komen de members -->
-    <% squad.members.forEach(member => { %>
-    <article>
-      <% if (member.avatar) { %>
-      <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
-      <% }else{ %>
-      <img src="/public/assets/placeholder.jpg" alt="placeholder" />
-      <% } %>
-      <h2><%= member.name %> <%= member.prefix %> <%= member.surname %></h2>
-    </article>
-    <% }) %>
-  </section>
-</main>
+<section>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+          <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+          <a href="#about">About</a>
+          <a href="#base">Base</a>
+          <a href="#blog">Blog</a>
+          <a href="#contact">Contact</a>
+          <a href="#custom">Custom</a>
+          <a href="#support">Support</a>
+          <a href="#tools">Tools</a>
+        </div>
+      </div>
+</section>
 
 <%- include('./partials/foot.ejs') %>
