@@ -1,7 +1,7 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# Squadpage
+In dit project heb ik een squad page gemaakt met verschillende squadmembers, alle data is afkomstig uit een API.
 
 ## Inhoudsopgave
 
@@ -9,23 +9,26 @@
   * [Kenmerken](#kenmerken)
   * [Installatie](#installatie)
   * [Gebruik](#gebruik)
-  * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+In dit project kan je mijn squadpage vinden. Dit heb ik gemaakt doormiddel van Node.js en de data heb ik gehaald uit de API van mijn opleiding die hier te vinden is: [https://busy-plum-duckling-sock.cyclic.app/](https://busy-plum-duckling-sock.cyclic.app/)
+![image](https://github.com/FouadTaissate/connect-your-tribe-squad-page/assets/112860051/00dea053-ce00-4d7d-92c3-1a93a2e432ad)
+
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+* Node
+* Ejs
+* Express
+* API
+* CSS
+* HTML
 
 ## Installatie
-<!-- Bij Installatie staat stap-voor-stap beschreven hoe je de development omgeving moet inrichten om aan de repository te kunnen werken. -->
+[Nodejs.org](Nodejs.org), voor de installatie van Node op jouw systeem, kies voor Node 18.14.0 LTS (Long Term Support). Dit is de meest stabiele versie van Node welke ondersteund wordt met goede documentatie. Vervolgens open je de terminal met (control + `) en typ je "npm install".
 
 ## Gebruik
-
-## Bronnen
+Voor het draaien van een server lokaal op je laptop of computer doe je het volgende in de terminal: "npm start"
 
 ## Licentie
 
