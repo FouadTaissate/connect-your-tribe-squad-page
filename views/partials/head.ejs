@@ -11,5 +11,41 @@
   <body>
     <header>
       <h1>Squadpage</h1>
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">filter</button>
+        <div id="myDropdown" class="dropdown-content">
+          <section class="card-filter">
+            <form>
+              <label class="filter-tag">Squad:</label><br>
+              <input type="radio" id="squadA" name="squad" value="squad-a-2022">
+              <label for="squadA"> Squad A</label><br>
+              <input type="radio" id="squadB" name="squad" value="squad-b-2022">
+              <label for="squadB"> Squad B</label><br>
+              <input type="radio" id="squadC" name="squad" value="squat-c-2022">
+              <label for="squadC"> Squad C</label><br>
+              <input type="radio" id="founders" name="squad" value="founders-2021">
+              <label for="founders"> Founders </label><br>
+              <input type="radio" id="minorweb" name="squad" value="minor-web-2023">
+              <label for="minorweb"> Minor Web </label><br><br>
+        
+              <label for="sort-select" class="filter-tag">Sort by:</label>
+          
+              <select name="orderBy" id="sort-select">
+                <option value="name-AZ">Name A-Z</option>
+                <option value="name-ZA">Name Z-A</option>
+                <option value="surname-AZ">Surname A-Z</option>
+                <option value="surname-ZA">Surname Z-A</option>
+                <option value="nickname-AZ">Nickname A-Z</option>
+                <option value="nickname-ZA">Nickname Z-A</option>
+          
+          
+              </select>
+          
+              <input type="submit" value="submit">
+            </form>
+          </section>
+          
+        </div>
+      </div>
     </header>
   
