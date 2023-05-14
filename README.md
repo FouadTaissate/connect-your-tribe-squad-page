@@ -17,9 +17,9 @@ In dit project kan je mijn squadpage vinden. Dit heb ik gemaakt doormiddel van N
 
 
 ## Kenmerken
-* Node
-* Ejs
-* Express
+* Node (Node allows developers to write JavaScript code that runs directly in a computer process itself instead of in a browser.)
+* Ejs (What is EJS? EJS simply stands for Embedded Javascript. It is a simple templating language/engine that lets its user generate HTML with plain javascript. It offers an easier way to interpolate (concatenate) strings effectively.)
+* Express (Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.)
 * API
 * CSS
 * HTML
