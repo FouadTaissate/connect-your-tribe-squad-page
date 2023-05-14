@@ -1,10 +1,3 @@
-:root {
-  --bgcolor: #1C1719;
-  --textcolor: rgb(255,255,255);
-  --btn: #f668a7;
-  --focus: #ff87c6;
-}
-
 
 @font-face {
   font-family: 'Aller Bold';
@@ -13,6 +6,13 @@
   src: local('Aller Bold'), url('/fonts/Aller_Bd.woff') format('woff');
   }
 
+
+:root {
+  --bgcolor: #1C1719;
+  --textcolor: rgb(255,255,255);
+  --btn: #f668a7;
+  --focus: #ff87c6;
+}
 
 * {
   background-color: var(--bgcolor);
