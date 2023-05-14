@@ -29,6 +29,7 @@ In dit project kan je mijn squadpage vinden. Dit heb ik gemaakt doormiddel van N
 
 ## Gebruik
 Voor het draaien van een server lokaal op je laptop of computer doe je het volgende in de terminal: "npm start"
+En daarna krijg je een lokale server met als link: http://localhost:8000/
 
 ## Licentie
 
